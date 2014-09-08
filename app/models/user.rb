@@ -1,5 +1,4 @@
 class User < ActiveRecord::Base
-	#attr_accesible :description, :email, :location, :name
-
+	#attr_accessible :description, :email, :location, :name, :ide
 	has_many :posts
 end

@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20140722181054) do
 
   create_table "users", force: true do |t|
     t.string   "name"
+    t.integer   "ide"
     t.string   "email"
     t.string   "location"
     t.text     "description"
